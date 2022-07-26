@@ -14,7 +14,6 @@ startButton.addEventListener('click', (event) => {
     const username = usernameInput.value
     const isValidInput = username.trim().length > 0
 
-
     if (isValidInput) {
       localStorage.setItem('username', username)
       window.location.href = '../views/play.html'
@@ -23,3 +22,26 @@ startButton.addEventListener('click', (event) => {
     }
   }
 })
+
+/* 
+  [
+    {
+      username: 'Renzo',
+      score: 9,
+      date: Date
+    },
+    
+    {
+      username: 'Alfredo',
+      score: 7,
+      date: Date
+    },
+
+
+    {
+      username: 'Maria',
+      score: 2,
+      date: Date
+    }
+  ]
+*/
